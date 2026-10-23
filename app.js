@@ -1,11 +1,29 @@
-// Only verified completed installations belong in this public gallery.
+// Unified portfolio: label real work, progress and 3D accurately; no category filters.
 const projects = [
  {asset:'hero-living-room',title:'مساحة استقبال بعمود نحتي',type:'أعمال منفذة'},
  {asset:'bathroom-gold',title:'حمام بتفاصيل وإضاءة دافئة',type:'أعمال منفذة'},
  {asset:'open-kitchen',title:'مطبخ مفتوح بتفاصيل خشبية',type:'أعمال منفذة'},
  {asset:'bathroom-shower',title:'تشطيب حمام بدرجات هادئة',type:'أعمال منفذة'},
  {asset:'bathroom-mirror',title:'وحدة حوض ومرآة بتصميم منحني',type:'أعمال منفذة'},
- {asset:'illuminated-commercial-facade',title:'تفاصيل واجهة تجارية بإضاءة',type:'تفاصيل منفذة من الواجهة'}
+ {asset:'illuminated-commercial-facade',title:'تفاصيل واجهة تجارية بإضاءة',type:'أعمال منفذة'},
+ {asset:'sculptural-detail',title:'تفاصيل عمود زخرفي',type:'مراحل التنفيذ'},
+ {asset:'kitchen-counter',title:'كاونتر مطبخ بإضاءة معلّقة',type:'مراحل التنفيذ'},
+ {asset:'geometric-wall',title:'تكوين جداري هندسي بإضاءة',type:'مراحل التنفيذ'},
+ {asset:'living-wall',title:'جدار تلفاز بإضاءة مدمجة',type:'تفاصيل تشطيب — اكتمال غير مؤكد'},
+ {asset:'commercial-progress',title:'تجهيز مساحة عرض تجارية',type:'مراحل التنفيذ'},
+ {asset:'facade-progress',title:'أعمال تركيب الواجهة',type:'مراحل التنفيذ'},
+ {asset:'commercial-render-one',title:'تصور داخلي لمساحة تجارية',type:'تصميم ثلاثي الأبعاد'},
+ {asset:'commercial-render-two',title:'تصور لوحدات العرض الداخلية',type:'تصميم ثلاثي الأبعاد'},
+ {asset:'storefront-render',title:'تصور لواجهة تجارية',type:'تصميم ثلاثي الأبعاد'},
+ {asset:'wardrobe-installation-progress',title:'تركيب خزانة ووحدة مكتب',type:'مراحل التنفيذ'},
+ {asset:'kitchen-installation-progress',title:'تركيب وحدات مطبخ',type:'مراحل التنفيذ'},
+ {asset:'sculptural-room-progress',title:'مساحة استقبال أثناء التشطيب',type:'مراحل التنفيذ'},
+ {asset:'stocked-display-progress',title:'تجهيز وحدات عرض تجارية',type:'مراحل التنفيذ'},
+ {asset:'display-framework-progress',title:'تجهيز هياكل وحدات العرض',type:'مراحل التنفيذ'},
+ {asset:'ceiling-fitout-progress',title:'تفاصيل سقف أثناء التجهيز',type:'مراحل التنفيذ'},
+ {asset:'interior-ceiling-progress',title:'تشطيبات داخلية أثناء التنفيذ',type:'مراحل التنفيذ'},
+ {asset:'commercial-partitions-progress',title:'تجهيز فواصل مساحة تجارية',type:'مراحل التنفيذ'},
+ {asset:'facade-lettering-progress',title:'تركيب حروف واجهة تجارية',type:'مراحل التنفيذ'}
 ];
 const gallery=document.querySelector('#gallery'),more=document.querySelector('#show-more'),status=document.querySelector('#gallery-status');
 const PAGE_SIZE=6;
