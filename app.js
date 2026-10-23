@@ -10,7 +10,7 @@ const projects = [
 const gallery=document.querySelector('#gallery'),more=document.querySelector('#show-more'),status=document.querySelector('#gallery-status');
 const PAGE_SIZE=6;
 let visibleCount=PAGE_SIZE,current=0,opener;
-const imageUrl=(p,size=1600)=>`images/${p.asset}-${size}.webp`;
+const imageUrl=(p,size=1600)=>`public/images/${p.asset}-${size}.webp`;
 function render(){
  const items=projects,visible=items.slice(gallery.children.length,visibleCount);
  const startIndex=gallery.children.length;
