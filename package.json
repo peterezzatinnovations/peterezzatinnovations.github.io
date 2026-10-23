@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "scripts": {"build": "node tools/build.mjs", "dev": "node tools/serve.mjs", "preview": "node tools/serve.mjs"}
+  "description": "Static GitHub Pages website. Publish main branch root; no build or dependencies required.",
+  "scripts": {"check": "node --check app.js"}
 }
